@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <title>Weather Dashboard</title>
+
 </head>
+
 <body>
-    
+    <div class='container-fluid text-left bg-light'>
+        <header class='jumbotron  text-center'>
+            <h1>Weather Dashboard</h1>
+            <h2 id='current-time'></h2>
+        </header>
+        <div class="container">
+            <div class='clearfix'>
+                <div class="col-4 float-left">
+                    <nav class="navbar navbar-light bg-white-rounded p-3 mb-5">
+                        <h3>Select A City</h3>
+                        <form class='form-inline'>
+                            <input id='user-input' class='form-control mr-sm-2' type='search' placeholder='Search'>
+                            <button id='select-city' class='btn btn-primary' type='submit'>Search</button>
+                        </form>
+                    </nav>
+                </div>
+                <div class='col-7 float-right bg-light text-dark p-2 p-3 mb-5 rounded'>
+                    <div id='current-weather'>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
