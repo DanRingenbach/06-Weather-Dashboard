@@ -4,8 +4,8 @@ The task of this project was to create a simple weather dashboard that would dis
 
 **Links**
 
-* [Deployed Webpage](https://danringenbach.github.io/05-Work-Day-Scheduler/ "Deployed Webpage")
-* [Repository Link](https://github.com/DanRingenbach/05-Work-Day-Scheduler "Repository Link")
+* [Deployed Webpage](https://danringenbach.github.io/06-Weather-Dashboard/ "Deployed Webpage")
+* [Repository Link](https://github.com/DanRingenbach/06-Weather-Dashboard "Repository Link")
 
 
 **Screenshot**
